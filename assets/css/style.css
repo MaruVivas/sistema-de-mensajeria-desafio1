@@ -1,0 +1,40 @@
+:root {
+    --white: #fff;
+    --platinum: #e8ebe4;
+    --gray: #bec1bb;
+    --blue-bell: #a491d2;
+    --soap: #cdc3e6;
+    --pale-lavander: #d4dcff;
+    --dark-jungle: #1b1f21;
+    --outer-space: #444749;
+    --old-silver: #828485;
+    --font1: roboto;
+    --font2: open sans;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 62,5%;
+}
+
+.container {
+    padding: 0;
+    display: flex;
+}
+
+.main {
+    margin: 0;
+    background-color: var(--platinum); 
+    display: flex;
+    flex: column;
+}
+
+.start-img {
+    width: 25%;
+    display: flex;
+}
+.sidebar {
+    width: 30vw; 
+}
